@@ -23,16 +23,16 @@ Built using **Next.js**, **Tailwind CSS**, and **Google Maps APIs**, the platfor
 
 ## 💡 Key Highlights
 
-### ✅ 1. Destination Search  
+###  1. Destination Search  
 Users can enter any location (e.g., *Bangalore, Mysore, Hampi*) and instantly explore curated information about that city.
 
-### ✅ 2. Curated Top Attractions  
+###  2. Curated Top Attractions  
 Every destination includes well-structured sightseeing cards containing:  
 - High-quality images  
 - Short descriptions  
 - Google Maps redirect buttons  
 
-### ✅ 3. Google Maps Integration  
+###  3. Google Maps Integration  
 Users can open locations directly inside Google Maps to access:  
 - Satellite view  
 - Ratings  
@@ -40,7 +40,7 @@ Users can open locations directly inside Google Maps to access:
 - Directions  
 - Nearby services (hotels, petrol pumps, restaurants)
 
-### ✅ 4. Real-Time Nearby Services  
+###  4. Real-Time Nearby Services  
 Automatically shows:  
 - 🏥 Hospitals  
 - 🏨 Hotels  
@@ -48,7 +48,7 @@ Automatically shows:
 
 Using **Google Places API**, the system fetches real-time nearby services around the user’s selected destination.
 
-### ✅ 5. Clean, Responsive, Modern UI  
+###  5. Clean, Responsive, Modern UI  
 - Full-screen hero section with travel imagery  
 - Glass-effect search box  
 - Smooth animations  
@@ -74,23 +74,47 @@ Using **Google Places API**, the system fetches real-time nearby services around
 
 ### ⭐ Home Page  
 A clean hero section with a stunning mountain background and a glass search box.
+
+
 ![WhatsApp Image 2025-11-26 at 19 35 20_0e5cc2a9](https://github.com/user-attachments/assets/d1e477ef-b7a9-4bc5-a00b-d15640e35d22)
 
-![Home Page](images/home.png)
+
 
 ---
 
 ### ⭐ Top Attractions Page  
 Displays curated attractions with images, descriptions, and maps link.
 
-![Attractions Page](images/attractions.png)
+![WhatsApp Image 2025-11-26 at 19 35 19_307c4620](https://github.com/user-attachments/assets/f12377aa-87b2-4874-a9a4-579b259ba2b0)
+
+
 
 ---
 
 ### ⭐ Google Maps Deep-Link  
 Direct deep-link to Google Maps showing hotels, hospitals, ratings, and prices.
 
-![Google Maps](images/maps.png)
+![WhatsApp Image 2025-11-26 at 19 35 19_d27af542](https://github.com/user-attachments/assets/783b1c84-0d64-44f3-b76e-60c568acdba2)
+
+
+
+---
+
+### ⭐ Hotel Booking View (Booking.com Style)
+
+TravelEase integrates hotel discovery using Google Places and Booking-style UI.  
+Users can view hotel details such as:
+
+- 💰 Price per night  
+- ⭐ Ratings  
+- 🛏️ Room details  
+- 🔗 Booking links  
+- 📍 Map location  
+
+This gives travelers a similar experience to apps like **Booking.com, Agoda, and Airbnb**, but embedded into the TravelEase ecosystem.
+
+![WhatsApp Image 2025-11-26 at 19 35 19_a3895dd0](https://github.com/user-attachments/assets/115a04bb-c9c9-4668-bfa0-cbc16bb7a7b7)
+
 
 ---
 
