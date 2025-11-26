@@ -204,7 +204,7 @@ Open the app in your browser:
 
 ## 👩‍💻 Developer
 
-**Nisha Naik** 
+**Nisha Naik** ,
 **Nithin R**
 B.E. Computer Science & Engineering  
 Alva’s Institute of Engineering & Technology (AIET), VTU  
