@@ -113,7 +113,8 @@ Users can view hotel details such as:
 
 This gives travelers a similar experience to apps like **Booking.com, Agoda, and Airbnb**, but embedded into the TravelEase ecosystem.
 
-![WhatsApp Image 2025-11-26 at 19 35 19_a3895dd0](https://github.com/user-attachments/assets/115a04bb-c9c9-4668-bfa0-cbc16bb7a7b7)
+![WhatsApp Image 2025-11-26 at 19 37 18_deef532e](https://github.com/user-attachments/assets/0da94fee-78db-457f-9b38-8a4fbc9a65cd)
+
 
 
 ---
@@ -204,8 +205,9 @@ Open the app in your browser:
 
 ## 👩‍💻 Developer
 
-**Nisha Naik** ,
+**Nisha Naik**,
 **Nithin R**
+
 B.E. Computer Science & Engineering  
 Alva’s Institute of Engineering & Technology (AIET), VTU  
 
