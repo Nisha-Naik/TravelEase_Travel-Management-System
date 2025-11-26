@@ -1,11 +1,11 @@
-# 🌍 TravelEase – Smart Travel Map
+# 🌍 TravelEase – Travel Management System
 
 TravelEase is a modern map-based travel assistant that helps users explore destinations, discover top attractions, and navigate using real-time location intelligence.  
 The system provides a clean UI, curated travel information, and deep Google Maps integration for a seamless and enjoyable travel experience.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 TravelEase aims to simplify travel planning and exploration by offering:
 
@@ -204,7 +204,8 @@ Open the app in your browser:
 
 ## 👩‍💻 Developer
 
-**Nisha Naik**  
+**Nisha Naik** 
+**Nithin R**
 B.E. Computer Science & Engineering  
 Alva’s Institute of Engineering & Technology (AIET), VTU  
 
