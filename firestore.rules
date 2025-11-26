@@ -1,0 +1,66 @@
+/**
+ * @description This ruleset enforces policies for a travel application.
+ * @dataStructure
+ *  - /destinations/{destinationId}: Publicly readable destination data.
+ *  - /destinations/{destinationId}/testimonials/{testimonialId}: Publicly readable testimonials.
+ * @keySecurityDecisions
+ *  - Public read access for destinations and testimonials.
+ *  - All write operations are denied for public data.
+ *  - Users can only read and write their own data in the /users/{userId} path.
+ */
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    /**
+     * @description Allows anyone to read destination information, but restricts all writes.
+     * @path /destinations/{destinationId}
+     */
+    match /destinations/{destinationId} {
+      allow get, list: if true;
+      allow create, update, delete: if false;
+
+      /**
+       * @description Allows anyone to read testimonials, but restricts all writes.
+       * @path /destinations/{destinationId}/testimonials/{testimonialId}
+       */
+      match /testimonials/{testimonialId} {
+        allow get, list: if true;
+        allow create, update, delete: if false;
+      }
+    }
+    
+    /**
+     * @description Manages user-specific data.
+     * @path /users/{userId}
+     */
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+
+      /**
+       * @description Users can manage their own search history.
+       * @path /users/{userId}/searchHistory/{searchId}
+       */
+       match /searchHistory/{searchId} {
+         allow read, create, update, delete: if isOwner(userId);
+       }
+    }
+
+    /**
+     * @description Checks if the requesting user is the owner of the document.
+     * @param {string} userId - The ID of the user to check against.
+     * @return {bool} True if the requester's UID matches the provided userId.
+     */
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    /**
+     * @description Checks if the user is signed in.
+     * @return {bool} True if request.auth is not null, false otherwise.
+     */
+    function isSignedIn() {
+      return request.auth != null;
+    }
+  }
+}
