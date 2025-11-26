@@ -74,6 +74,7 @@ Using **Google Places API**, the system fetches real-time nearby services around
 
 ### ⭐ Home Page  
 A clean hero section with a stunning mountain background and a glass search box.
+![WhatsApp Image 2025-11-26 at 19 35 20_0e5cc2a9](https://github.com/user-attachments/assets/d1e477ef-b7a9-4bc5-a00b-d15640e35d22)
 
 ![Home Page](images/home.png)
 
