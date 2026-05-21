@@ -8,14 +8,7 @@ The system provides a clean UI, curated travel information, and deep Google Maps
 ##  Project Overview
 
 TravelEase aims to simplify travel planning and exploration by offering:
-
-- 🗺️ Interactive map features  
-- ✈️ Destination-based exploration  
-- ⭐ Curated attraction lists  
-- 🏨 Nearby hotels  
-- 🏥 Nearby hospitals  
-- ⛽ Nearby fuel stations  
-- 🔗 Direct Google Maps deep-linking  
+ 
 
 Built using **Next.js**, **Tailwind CSS**, and **Google Maps APIs**, the platform provides a modern, responsive, and scalable solution suitable for real-world travel applications.
 
