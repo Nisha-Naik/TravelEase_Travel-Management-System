@@ -26,11 +26,7 @@ Built using **Next.js**, **Tailwind CSS**, and **Google Maps APIs**, the platfor
 ###  1. Destination Search  
 Users can enter any location (e.g., *Bangalore, Mysore, Hampi*) and instantly explore curated information about that city.
 
-###  2. Curated Top Attractions  
-Every destination includes well-structured sightseeing cards containing:  
-- High-quality images  
-- Short descriptions  
-- Google Maps redirect buttons  
+
 
 ###  3. Google Maps Integration  
 Users can open locations directly inside Google Maps to access:  
