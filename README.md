@@ -50,6 +50,12 @@ Automatically shows:
 
 Using **Google Places API**, the system fetches real-time nearby services around the user’s selected destination.
 
+###  5. Clean, Responsive, Modern UI  
+- Full-screen hero section with travel imagery  
+- Glass-effect search box  
+- Smooth animations  
+- Dark blue / gradient theme  
+- Mobile-friendly layout  
 
 
 ---
