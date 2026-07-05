@@ -5,7 +5,6 @@ The system provides a clean UI, curated travel information, and deep Google Maps
 
 ---
 
-##  Project Overview
 
 TravelEase aims to simplify travel planning and exploration by offering:
 
